@@ -17,3 +17,6 @@ Just open the index.html file in your browser.
   <img src="./1.png" width="70%" />
   <img src="./2.png" width="70%" /> 
 </p>
+
+## Game Trailer
+https://drive.google.com/file/d/1zjWdf65rSimhTONa8KnUx9-HEencLGte/view?usp=sharing
