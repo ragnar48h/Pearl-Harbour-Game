@@ -1,0 +1,234 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 8988,
+      "max": [
+        7.4878172874450684,
+        7.5097136497497559,
+        2.5475878715515137
+      ],
+      "min": [
+        -7.5121703147888184,
+        -3.2302305698394775,
+        -7.9353094100952148
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 107856,
+      "componentType": 5126,
+      "count": 8988,
+      "max": [
+        0.99999994039535522,
+        0.99942314624786377,
+        0.99981898069381714
+      ],
+      "min": [
+        -0.99978137016296387,
+        -0.99995613098144531,
+        -0.99949347972869873
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 8988,
+      "max": [
+        0.99087494611740112,
+        0.99891245365142822,
+        0.99472123384475708,
+        1
+      ],
+      "min": [
+        -0.99709582328796387,
+        -0.99383485317230225,
+        -0.99971747398376465,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 11634,
+      "max": [
+        8987
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Dzemal Semanic (https://sketchfab.com/dzemalmclaren)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/7aa1a1c3aebd40c982ac2e3cd201e7a8",
+      "title": "Stone Debris"
+    },
+    "generator": "Sketchfab-3.22.13",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 46536,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 215712,
+      "byteOffset": 46536,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 143808,
+      "byteOffset": 262248,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 406056,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Scene_-_Root",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.19346185660000001,
+          0.19413198270000001,
+          0.12677174420000001,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube_cell.018__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "e2ee49c82e914d12b6d4e8478f4aaa7b.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        67.95687057253248,
+        -34.074694920770256,
+        -64.967521947851026,
+        0,
+        -30.52973099345293,
+        67.38979837635371,
+        -67.279644769140958,
+        0,
+        66.706820838959032,
+        65.555555802707758,
+        35.393088065836459,
+        0,
+        302.61044311523438,
+        46.316463470458984,
+        46.188240051269531,
+        1
+      ],
+      "name": "Cube_cell.018"
+    },
+    {
+      "mesh": 0,
+      "name": "Cube_cell.018__0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+

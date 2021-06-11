@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { margin: 0; }
+    </style>
+    <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    <div class="header">
+        <h1><span>the</span>Pearl Harbour</h1>
+        <h2>Created by: <br><br>Hasir Mushtaq <br> 2018102049</h2>
+        <div class="score-container">
+            <div class="score" id="score">
+                <div class="score__content" id="dist">
+                    <div class="score__label">score</div>
+                    <div class="score__value score__value--dist" id="scoreValue">0</div>
+                </div>
+            </div>
+            <div class="score__content" id="energy">
+                <div class="score__label">health</div>
+                <div class="score__value score__value--energy" id="energyValue">
+                    <div class="energy-bar" id="energyBar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script type="module" src="js/world.js"></script>
+</body>
+</html>
